@@ -1705,6 +1705,33 @@ home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	$(MAKE) -f CMakeFiles/UART.dir/build.make CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
+home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+
+.PHONY : home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+
+# target to build an object file
+home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	$(MAKE) -f CMakeFiles/UART.dir/build.make CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+
+home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+.PHONY : home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+
+# target to preprocess a source file
+home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	$(MAKE) -f CMakeFiles/UART.dir/build.make CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+.PHONY : home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+
+# target to generate assembly for a file
+home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	$(MAKE) -f CMakeFiles/UART.dir/build.make CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
 home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
 .PHONY : home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
@@ -2023,6 +2050,9 @@ help:
 	@echo "... home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
+	@echo "... home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
 	@echo "... home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
 	@echo "... home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
 	@echo "... home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"

@@ -12,11 +12,12 @@ add_executable(UART
 
 target_link_libraries(UART
     pico_stdlib
+    hardware_uart
 
     
     )
 
 pico_enable_stdio_usb(UART 1) # from video, enables USB for minicom 
-pico_enable_stdio_uart(UART 0)
+pico_enable_stdio_uart(UART 1)
 
 pico_add_extra_outputs(UART)

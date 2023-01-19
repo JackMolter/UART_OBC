@@ -554,9 +554,22 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdi
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
+CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/UART.dir/flags.make
+CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj   -c /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+
+CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj   -c /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -569,7 +582,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj   -c /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -582,7 +595,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj   -c /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -595,7 +608,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -608,7 +621,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspb
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -621,7 +634,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspb
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -634,7 +647,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -647,7 +660,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd_co
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -660,7 +673,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/audio/au
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -673,7 +686,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -686,7 +699,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -699,7 +712,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -712,7 +725,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -725,7 +738,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/midi/mid
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -738,7 +751,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -751,7 +764,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -764,7 +777,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -777,7 +790,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/u
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -790,7 +803,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/vendor/v
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -803,7 +816,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/class/video/vi
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/tusb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -816,7 +829,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmak
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj   -c /home/jackmolter/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -829,7 +842,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/common/tusb_fi
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj   -c /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -842,7 +855,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_fix/rp2040
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj   -c /home/jackmolter/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -855,7 +868,7 @@ CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_unique_id/
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/UART.dir/flags.make
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj   -c /home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -913,6 +926,7 @@ UART_OBJECTS = \
 "CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
+"CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
 "CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
 "CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
 "CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
@@ -986,6 +1000,7 @@ UART.elf: CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_
 UART.elf: CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 UART.elf: CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 UART.elf: CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+UART.elf: CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 UART.elf: CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 UART.elf: CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 UART.elf: CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
@@ -1013,7 +1028,7 @@ UART.elf: CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardw
 UART.elf: CMakeFiles/UART.dir/build.make
 UART.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 UART.elf: CMakeFiles/UART.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable UART.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jackmolter/UART_OBC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking CXX executable UART.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UART.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /home/jackmolter/UART_OBC/build/UART.elf UART.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/jackmolter/UART_OBC/build/UART.elf UART.bin
