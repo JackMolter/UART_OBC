@@ -64,8 +64,15 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/UART.dir/UART.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/UART.dir/UART.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/UART.dir/UART.c.obj
+ .text.openlst_setup
+                0x0000000000000000       0x34 CMakeFiles/UART.dir/UART.c.obj
+ .rodata.uart_test.str1.4
+                0x0000000000000000        0xe CMakeFiles/UART.dir/UART.c.obj
  .text.uart_test
-                0x0000000000000000       0x68 CMakeFiles/UART.dir/UART.c.obj
+                0x0000000000000000       0x64 CMakeFiles/UART.dir/UART.c.obj
+ .text.send_packet
+                0x0000000000000000        0x4 CMakeFiles/UART.dir/UART.c.obj
+ .data.data     0x0000000000000000        0xc CMakeFiles/UART.dir/UART.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1155,9 +1162,9 @@ Discarded input sections
                 0x0000000000000000       0x80 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .time_critical.flash_range_program
                 0x0000000000000000       0x80 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccRjheWk.o
- .data          0x0000000000000000        0x0 /tmp/ccRjheWk.o
- .bss           0x0000000000000000        0x0 /tmp/ccRjheWk.o
+ .text          0x0000000000000000        0x0 /tmp/cc4PYfxr.o
+ .data          0x0000000000000000        0x0 /tmp/cc4PYfxr.o
+ .bss           0x0000000000000000        0x0 /tmp/cc4PYfxr.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1378,7 +1385,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccRjheWk.o
+ .boot2         0x0000000010000000      0x100 /tmp/cc4PYfxr.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -1447,9 +1454,12 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  .text.uart_setup
                 0x000000001000035c       0x34 CMakeFiles/UART.dir/UART.c.obj
                 0x000000001000035c                uart_setup
+ .text.uart_openlst_test
+                0x0000000010000390       0x5c CMakeFiles/UART.dir/UART.c.obj
+                0x0000000010000390                uart_openlst_test
  .text.startup.main
-                0x0000000010000390       0x70 CMakeFiles/UART.dir/UART.c.obj
-                0x0000000010000390                main
+                0x00000000100003ec       0x14 CMakeFiles/UART.dir/UART.c.obj
+                0x00000000100003ec                main
  .text.gpio_set_function
                 0x0000000010000400       0x30 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
                 0x0000000010000400                gpio_set_function
@@ -1936,114 +1946,111 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .iplt           0x0000000010004f08        0x0
  .iplt          0x0000000010004f08        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010004f08      0x2fc
+.rodata         0x0000000010004f08      0x2ec
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
- .rodata.uart_test.str1.4
-                0x0000000010004f08        0xe CMakeFiles/UART.dir/UART.c.obj
- *fill*         0x0000000010004f16        0x2 
  .rodata.spin_lock_claim_unused.str1.4
-                0x0000000010004f18       0x1b CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x0000000010004f33        0x1 
+                0x0000000010004f08       0x1b CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x0000000010004f23        0x1 
  .rodata.hardware_alarm_claim.str1.4
-                0x0000000010004f34       0x22 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010004f56        0x2 
+                0x0000000010004f24       0x22 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010004f46        0x2 
  .rodata.panic.str1.4
-                0x0000000010004f58       0x12 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010004f6a        0x2 
+                0x0000000010004f48       0x12 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x0000000010004f5a        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x0000000010004f6c        0xc CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010004f5c        0xc CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.str1.4
-                0x0000000010004f78       0x3c CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010004f68       0x3c CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x0000000010004fb4        0xc CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010004fa4        0xc CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x0000000010004fc0        0xc CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010004fb0        0xc CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x0000000010004fcc        0xc CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010004fbc        0xc CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.6056
-                0x0000000010004fd8        0x2 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x0000000010004fda        0x2 
+                0x0000000010004fc8        0x2 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x0000000010004fca        0x2 
  .rodata.str1.4
-                0x0000000010004fdc       0x2c CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010004fcc       0x2c CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_28.4750
-                0x0000000010005008        0xc CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010004ff8        0xc CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_29.4754
-                0x0000000010005014        0x8 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010005004        0x8 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata._resetd_driver
-                0x000000001000501c       0x18 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000000001000500c       0x18 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x0000000010005034       0x13 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x0000000010005047        0x1 
+                0x0000000010005024       0x13 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x0000000010005037        0x1 
  .rodata.__bi_93.7182
-                0x0000000010005048        0xc CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010005038        0xc CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x0000000010005054       0x2a CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x000000001000507e        0x2 
+                0x0000000010005044       0x2a CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x000000001000506e        0x2 
  .rodata.usbd_desc_cfg
-                0x0000000010005080       0x54 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010005070       0x54 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x00000000100050d4       0x12 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x00000000100050e6        0x2 
+                0x00000000100050c4       0x12 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x00000000100050d6        0x2 
  .rodata.usbd_desc_str
-                0x00000000100050e8       0x18 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x00000000100050d8       0x18 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.dcd_rp2040_irq.str1.4
-                0x0000000010005100       0x14 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100050f0       0x14 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata._hw_endpoint_buffer_control_update32.part.0.str1.4
-                0x0000000010005114       0x1f CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x0000000010005133        0x1 
+                0x0000000010005104       0x1f CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x0000000010005123        0x1 
  .rodata.hw_endpoint_xfer_continue.str1.4
-                0x0000000010005134       0x29 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010005124       0x29 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .rodata.str1.4
-                0x000000001000515d       0x29 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000001000514d       0x29 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
                                           0x7 (size before relaxing)
- *fill*         0x000000001000515d        0x3 
+ *fill*         0x000000001000514d        0x3 
  .rodata.tud_task
-                0x0000000010005160       0x8c CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005150       0x8c CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x00000000100051ec       0x18 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005204                . = ALIGN (0x4)
+                0x00000000100051dc       0x18 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100051f4                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010005204                . = ALIGN (0x4)
+                0x00000000100051f4                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000010005204        0x0
- .rel.iplt      0x0000000010005204        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x00000000100051f4        0x0
+ .rel.iplt      0x00000000100051f4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010005204                __exidx_start = .
+                0x00000000100051f4                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010005204                __exidx_end = .
-                0x0000000010005204                . = ALIGN (0x4)
-                0x0000000010005204                __binary_info_start = .
+                0x00000000100051f4                __exidx_end = .
+                0x00000000100051f4                . = ALIGN (0x4)
+                0x00000000100051f4                __binary_info_start = .
 
-.binary_info    0x0000000010005204       0x28
+.binary_info    0x00000000100051f4       0x28
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x0000000010005204        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100051f4        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x0000000010005208        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100051f8        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x000000001000520c        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100051fc        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x0000000010005210        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005200        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x0000000010005214        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005204        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x0000000010005218        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010005208        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x000000001000521c        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000520c        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr28
-                0x0000000010005220        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010005210        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr29
-                0x0000000010005224        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010005214        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr93
-                0x0000000010005228        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x000000001000522c                __binary_info_end = .
-                0x000000001000522c                . = ALIGN (0x4)
-                0x000000001000522c                __etext = .
+                0x0000000010005218        0x4 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x000000001000521c                __binary_info_end = .
+                0x000000001000521c                . = ALIGN (0x4)
+                0x000000001000521c                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2052,7 +2059,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x0000000020000000       0xc0 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0x3d4 load address 0x000000001000522c
+.data           0x00000000200000c0      0x3d4 load address 0x000000001000521c
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2156,33 +2163,33 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x0000000020000494                __data_end__ = .
 
 .tm_clone_table
-                0x0000000020000494        0x0 load address 0x0000000010005600
+                0x0000000020000494        0x0 load address 0x00000000100055f0
  .tm_clone_table
                 0x0000000020000494        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x0000000020000494        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x0000000020000494        0x0 load address 0x0000000010005600
+.igot.plt       0x0000000020000494        0x0 load address 0x00000000100055f0
  .igot.plt      0x0000000020000494        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020000494        0x0 load address 0x0000000010005600
+                0x0000000020000494        0x0 load address 0x00000000100055f0
                 0x0000000020000494                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x0000000010005600
+.scratch_x      0x0000000020040000        0x0 load address 0x00000000100055f0
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x0000000010005600                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x00000000100055f0                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x0000000010005600
+.scratch_y      0x0000000020041000        0x0 load address 0x00000000100055f0
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x0000000010005600                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x00000000100055f0                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x0000000020000498      0xd88
                 0x0000000020000498                . = ALIGN (0x4)
@@ -2286,8 +2293,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x0000000010005600        0x0
-                0x0000000010005600                __flash_binary_end = .
+.flash_end      0x00000000100055f0        0x0
+                0x00000000100055f0                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2366,7 +2373,7 @@ LOAD CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/lib/tinyusb/src/common/tu
 LOAD CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 LOAD CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-LOAD /tmp/ccRjheWk.o
+LOAD /tmp/cc4PYfxr.o
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2484,7 +2491,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000000000007d4       0x2c CMakeFiles/UART.dir/home/jackmolter/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .ARM.attributes
-                0x0000000000000800       0x22 /tmp/ccRjheWk.o
+                0x0000000000000800       0x22 /tmp/cc4PYfxr.o
  .ARM.attributes
                 0x0000000000000822       0x1e /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
