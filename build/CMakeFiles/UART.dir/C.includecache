@@ -17,6 +17,8 @@ UART.h
 /home/jackmolter/UART_OBC/UART.h
 
 /home/jackmolter/UART_OBC/UART.h
+stdint.h
+-
 
 /home/jackmolter/pico/pico-sdk/src/boards/include/boards/pico.h
 
